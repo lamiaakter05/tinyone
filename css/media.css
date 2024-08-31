@@ -1,13 +1,16 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+       /*common css start*/
+       body{
+              padding-top: 89px !important;
+       }
      /*common padding*/
-     body{
-       padding-top: 89px;
-     } 
+    
        .c_padding{
                padding-top: 50px ;
                padding-bottom: 70px;
        }
+       /*common padding end*/
        /*header start*/
        header{
               padding: 10px 0;
@@ -106,22 +109,22 @@
        .f_2{
               text-align: center;
               margin-top: 40px;
-       }
-
-    
+       }  
     
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-       /*common padding*/
+       /*common css start*/
        body{
-              padding-top: 89px;
+           padding-top: 89px !important;
        }
+       /*common padding*/
          .c_padding{
                padding-top: 50px ;
                padding-bottom: 70px;
        }
+       /*common padding end*/
        /*header start*/
        .menu ul li a{
               font-size: 20px;
@@ -209,6 +212,9 @@
        /*footer*/
        footer{
               padding-bottom: 70px;
+       }
+       address {
+              padding-bottom: 18px;
        }
        .f_1 address{
               margin-bottom: 40px;
